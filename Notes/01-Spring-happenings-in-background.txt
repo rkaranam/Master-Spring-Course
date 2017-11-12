@@ -1,0 +1,28 @@
+Resolved location pattern [classpath*:com/in28minutes/spring/basics/springin5steps/**/*.class] to resources [file [path\spring-in-5-steps\target\classes\package\BinarySearchImpl.class], 
+file [path\spring-in-5-steps\target\classes\package\BubbleSortAlgorithm.class], 
+file [path\spring-in-5-steps\target\classes\package\QuickSortAlgorithm.class], 
+file [path\spring-in-5-steps\target\classes\package\SortAlgorithm.class], 
+file [path\spring-in-5-steps\target\classes\package\SpringIn5StepsApplication.class]]
+
+o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: 
+file [path\spring-in-5-steps\target\classes\package\BinarySearchImpl.class]
+o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: 
+file [path\spring-in-5-steps\target\classes\package\BubbleSortAlgorithm.class]
+
+****************************** via Constructor Injection **********************************
+
+o.s.b.f.s.DefaultListableBeanFactory     : Creating instance of bean 'binarySearchImpl'
+o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'bubbleSortAlgorithm'
+o.s.b.f.s.DefaultListableBeanFactory     : Creating instance of bean 'bubbleSortAlgorithm'
+o.s.b.f.s.DefaultListableBeanFactory     : Eagerly caching bean 'bubbleSortAlgorithm' to allow for resolving potential circular references
+o.s.b.f.s.DefaultListableBeanFactory     : Finished creating instance of bean 'bubbleSortAlgorithm'
+o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'binarySearchImpl' via constructor to bean named 'bubbleSortAlgorithm'
+
+****************************** via Setter Injection **********************************
+
+o.s.b.f.s.DefaultListableBeanFactory     : Creating instance of bean 'binarySearchImpl'
+o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'bubbleSortAlgorithm'
+o.s.b.f.s.DefaultListableBeanFactory     : Creating instance of bean 'bubbleSortAlgorithm'
+o.s.b.f.s.DefaultListableBeanFactory     : Eagerly caching bean 'bubbleSortAlgorithm' to allow for resolving potential circular references
+o.s.b.f.s.DefaultListableBeanFactory     : Finished creating instance of bean 'bubbleSortAlgorithm'
+f.a.AutowiredAnnotationBeanPostProcessor : Autowiring by type from bean name 'binarySearchImpl' to bean named 'bubbleSortAlgorithm'
