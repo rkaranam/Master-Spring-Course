@@ -9,12 +9,20 @@ public class BinarySearchImpl {
 	@Autowired // Does adding @Autowired means we are using setter injection
 	private SortAlgorithm sortAlgorithm;
 	
-	// Does using a constructor means we are using constructor injection
+	/*
+	// Using a setter method means we are using Setter injection
+	public void setSortAlgorithm(SortAlgorithm sortAlgorithm) {
+		this.sortAlgorithm = sortAlgorithm;
+	}
+	*/
+	
+	/*
+	// Using a constructor means we are using constructor injection
 	public BinarySearchImpl(SortAlgorithm sortAlgorithm) {
 		super();
 		this.sortAlgorithm = sortAlgorithm;
 	}
-	
+	*/
 	public int binarySearch(int[] numbers, int numberToSearch) {
 		
 		// Implement Sorting Logic

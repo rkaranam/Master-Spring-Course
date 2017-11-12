@@ -1,0 +1,16 @@
+3 Ways of autowiring:
+
+Constructor:
+- Autowiring by type from bean name 'binarySearchImpl' via constructor to bean named 'quickSortAlgorithm'
+
+Setter:
+- Autowiring by type from bean name 'binarySearchImpl' to bean named 'quickSortAlgorithm'
+
+No Setter or Constructor:
+- Autowiring by type from bean name 'binarySearchImpl' to bean named 'quickSortAlgorithm'
+
+1. How do we pass the parameter to the constructor in spring like Test t = new Test(1), a parameterized constructor?
+
+You would need to use Constructor injection.
+
+You need to create a Constructor accepting one parameter and have @Autowired on it.
